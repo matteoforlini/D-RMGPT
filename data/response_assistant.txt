@@ -1,0 +1,8 @@
+1. Upper Fuselage: YES
+2. Lower Fuselage: YES
+3. Motor: NO
+4. Tail wing: NO
+5. Propeller: NO
+6. Wing: NO
+7. Chassis: NO
+8. Wheels: NO

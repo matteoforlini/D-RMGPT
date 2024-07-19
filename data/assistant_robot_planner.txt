@@ -1,0 +1,5 @@
+robot.move_to(<fourth_step_number>)
+robot.close_gripper()
+robot.move_to(delivering_pose)
+robot.open_gripper()
+robot.move_to(home_pose)
