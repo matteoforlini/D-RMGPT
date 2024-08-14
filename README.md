@@ -12,6 +12,9 @@ Our research group, born from the collobaration between <a href="https://mdm.uni
 
 In this repository is reported the code necessary to run the system with all the prompts used and the images from the real scenario tested that can be used as example
 
+# Overview of the pipeline
+
+<img src="/Images/achitecture.png" alt="architecture" width="800"/>
 
 The project consists of three main components:
 - Skeleton Detection performed by a standard PC (PC 1);
