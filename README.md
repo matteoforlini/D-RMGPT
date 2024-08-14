@@ -8,6 +8,9 @@ based on GPT-4V(vision), perceives the surrounding environment through one-shot 
 current assembly stage and the list of components to be assembled. It identifies which components have already
 been assembled by analysing their features and assembly requirements. R-ManGPT, based on GPT-4, plans the
 next component to be assembled and generates the robot’s discrete actions to deliver it to the human co-worker.
+Our research group, born from the collobaration between <a href="https://mdm.univpm.it/mdm/en/home-page-eng/">Università Politecnica delle Marche</a>  and <a href="http://www2.dem.uc.pt/pedro.neto/">University of Coimbra</a> believes that this framework will serve as an effective assistant to help an inexperienced operator to perferom any assembly task. In our <a href="https://www.html.it/">paper</a> and our <a href="https://robotics-and-ai.github.io/LMMmodels/">project page</a> are shown and discussed the results obtained.
+
+In this repository is reported the code necessary to run the system with all the prompts used and the images from the real scenario tested that can be used as example
 
 
 The project consists of three main components:
