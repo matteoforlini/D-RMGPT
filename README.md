@@ -33,3 +33,15 @@ Set the OPENAI key in the constants.py file.
 
 Two IntelRealsense D345i were used to take the photos of the mounting scenario; to manage the cameras use the camera.py file, entering the id of the cameras in the initialization of the camera object. Anyway, any RGB camera can be used to take pictures of the assembly scenario from two different viewpoints: from the side and from above.
 
+#Bibliography
+
+```
+@misc{forlini2024D-RMGPT,
+  title={D-RMGPT: Robot-assisted collaborative tasks driven by large multimodal models}, 
+  author={Matteo Forlini, Mihail Babcinschi, Giacomo Palmieri and Pedro Neto},
+  year={2024},
+  eprint={2402.18796},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO}
+}
+```
