@@ -10,11 +10,28 @@ been assembled by analysing their features and assembly requirements. R-ManGPT, 
 next component to be assembled and generates the robot’s discrete actions to deliver it to the human co-worker.
 Our research group, born from the collobaration between <a href="https://mdm.univpm.it/mdm/en/home-page-eng/">Università Politecnica delle Marche</a>  and <a href="http://www2.dem.uc.pt/pedro.neto/">University of Coimbra</a> believes that this framework will serve as an effective assistant to help an inexperienced operator to perferom any assembly task. In our <a href="https://www.html.it/">paper</a> and our <a href="https://robotics-and-ai.github.io/LMMmodels/">project page</a> are shown and discussed the results obtained.
 
-In this repository is reported the code necessary to run the system with all the prompts used and the images from the real scenario tested that can be used as example
+In this repository is reported the code necessary to run the system with all the prompts and images used.
+For the images, the component list and pictures of each step in the real assembly process are provided, enabling effective testing of the framework.
+
+The output of the robot manager task is sent via TCP-IP to the robot that with an own programm perform the movement. 
+
+
 
 # Overview of the pipeline
 
-<img src="/Images/achitecture.png" alt="architecture" width="800"/>
+<img src="/data/fig1.jpg" alt="architecture" width="800"/>
+
+# How to use
+
+The framework has been developed using Python 3.11.5, install all the necessary libraries listed in the requirements.txt file.
+
+```
+pip install -r requirements.txt
+```
+
+Set the OPENAI key in the constants.py file.
+
+Two IntelRealsense D345i were used to take the photos of the mounting scenario; to manage the cameras use the camera.py file, entering the id of the cameras in the initialization of the camera object. Anyway, any RGB camera can be used to take pictures of the assembly scenario from two different viewpoints: from the side and from above.
 
 The project consists of three main components:
 - Skeleton Detection performed by a standard PC (PC 1);
