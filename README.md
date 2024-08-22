@@ -36,12 +36,13 @@ Two IntelRealsense D345i were used to take the photos of the mounting scenario; 
 # Bibliography
 If you have found this work useful, please cite it:
 ```
-@misc{forlini2024D-RMGPT,
-  title={D-RMGPT: Robot-assisted collaborative tasks driven by large multimodal models}, 
-  author={Matteo Forlini, Mihail Babcinschi, Giacomo Palmieri and Pedro Neto},
-  year={2024},
-  eprint={2402.18796},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO}
+@misc{forlini2024drmgptrobotassistedcollaborativetasks,
+      title={D-RMGPT: Robot-assisted collaborative tasks driven by large multimodal models}, 
+      author={M. Forlini and M. Babcinschi and G. Palmieri and P. Neto},
+      year={2024},
+      eprint={2408.11761},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2408.11761}, 
 }
 ```
