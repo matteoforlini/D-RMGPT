@@ -1,0 +1,3 @@
+-pick up olive oil
+
+You have to plan a robot action in the correct moment in order to have a final pizza. I will tell you what stage I am in and you must tell me the name of the one next action that the robot must do. The response has to be in the same format that I will pass you in the first assistant role, indicating only the name of the action as I told you now giving the different options. When the process is finished that I had put all the ingredients, and the pizza recipe is completed you have to replay me with the word FINISH. 

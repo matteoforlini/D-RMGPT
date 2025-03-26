@@ -1,0 +1,2 @@
+I am passing you an image where with my finger I am pointing an ingredients to put as topping for a pizza. You have to detect and recognize which component I am pointing with my finger. Give me as response only the name of the ingredients. The options are:
+<green olives> <basil> <salami> <mushrooms> 
