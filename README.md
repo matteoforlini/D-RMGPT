@@ -1,12 +1,12 @@
 # D-RMGPT: Robot-assisted collaborative tasks driven by large multimodal models
 
-This repository contains all the code required to assist human in an assembly task using GPT-4V LMM model and an Universal Robot 5e manipulator. 
+This repository contains all the code required to assist human in a two different assembly tasks using GPT-4V (now substituted with gpt-4o) LMM model and an Universal Robot 5e or KUKA LBR iiwa 7 R800 manipulator. 
 The work presents the **Detection-Robot Management GPT (D-RMGPT), a robot-assisted assembly
 planner based on Large Multimodal Models (LMM)**. This system can assist inexperienced operators in assembly tasks
 without requiring any markers or previous training. **D-RMGPT** is composed of **DetGPT-V** and **R-ManGPT**. DetGPT-V,
 based on GPT-4V(vision), perceives the surrounding environment through one-shot analysis of prompted images of the
 current assembly stage and the list of components to be assembled. It identifies which components have already
-been assembled by analysing their features and assembly requirements. R-ManGPT, based on GPT-4, plans the
+been assembled by analysing their features and assembly requirements. R-ManGPT, plans the
 next component to be assembled and generates the robot’s discrete actions to deliver it to the human co-worker.
 Our research group, born from the collobaration between <a href="https://mdm.univpm.it/mdm/en/home-page-eng/">Università Politecnica delle Marche</a>  and <a href="http://www2.dem.uc.pt/pedro.neto/">University of Coimbra</a> believes that this framework will serve as an effective assistant to help an inexperienced operator to perform any assembly task. The results of our work are presented and discussed in detail in our <a href="https://arxiv.org/pdf/2408.11761">paper</a> and our <a href="https://robotics-and-ai.github.io/LMMmodels/">project page</a>.
 
@@ -23,7 +23,9 @@ The output of the robot manager task is sent via TCP-IP to the robot that with a
 
 # How to use
 
-The framework has been developed using Python 3.11.5, install all the necessary libraries listed in the requirements.txt file.
+The framework has been developed using Python 3.11.5 for assembly aircraft task and Python 3.6.13 for food preparation task, install all the necessary libraries listed in the requirements.txt file.
+
+Please download the checkpoints weights for action recognition model from this <a href="https://univpm-my.sharepoint.com/:f:/g/personal/s1106639_pm_univpm_it/El23aUZQa-pAgAE4t2PsBwABcROXQ5x0IrVo6VJKxBIFSA?e=Lwtzok">link</a>
 
 ```
 pip install -r requirements.txt
