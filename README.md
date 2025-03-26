@@ -19,7 +19,7 @@ The output of the robot manager task is sent via TCP-IP to the robot that with a
 
 # Overview of the pipeline
 
-<img src="/data/fig0.jpg" alt="architecture" width="800"/>
+<img src="/data/fig0.jpg" alt="architecture" width="1000"/>
 
 # How to use
 
